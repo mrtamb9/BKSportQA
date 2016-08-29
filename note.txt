@@ -1,0 +1,8 @@
+Ban code moi nhat copy cua Cong ngay 7-1-2015. 
+Them giao dien do hoa co console log.
+
+Chay co ve ko bi loi ko nhat URI cua thuc the.
+
+Loi result of the match between MU - Fulham? Ko parse duoc (result of the match between MU and Fulham? OK)
+
+Khi query du server http://172.245.22.156:10035/ chay nhung ko truy van duoc

@@ -1,0 +1,4 @@
+syntax: regexp
+^deploy$
+^bin$
+^log$

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/mrtamb9/Desktop/BKA2.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/BKSportQA/Tam_Jar.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <selectedElements exportClassFiles="false" exportJavaFiles="true" exportOutputFolder="false">
+        <folder path="/BKSportAnnotation/javadoc"/>
+        <file path="/BKSportAnnotation/.project"/>
+        <folder path="/BKSportAnnotation/log"/>
+        <file path="/BKSportAnnotation/.classpath"/>
+        <folder path="/BKSportAnnotation/src"/>
+        <folder path="/BKSportAnnotation/src - Copy"/>
+        <javaElement handleIdentifier="=BKSportAnnotation/src\/main\/resources"/>
+        <javaElement handleIdentifier="=BKSportAnnotation/src\/main\/java"/>
+        <javaElement handleIdentifier="=BKSportAnnotation/lib"/>
+        <folder path="/BKSportAnnotation/conf"/>
+    </selectedElements>
+</jardesc>

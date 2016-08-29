@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar" sourcepath="source/commons-lang3-3.1-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/BKSportQA/javadoc/commons-lang3-3.1-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar" sourcepath="source/log4j-1.2.17-src.jar"/>
+	<classpathentry kind="lib" path="lib/lemon.api-1.12.7.jar" sourcepath="source/lemon-source.jar"/>
+	<classpathentry kind="lib" path="lib/stanford-corenlp-1.3.5.jar" sourcepath="source/stanford-corenlp-1.3.5-sources.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/BKSportQA/javadoc/stanford-corenlp-1.3.5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/jwnl.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/BKSportQA/javadoc/jwnl14-rc2-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/agraph/agraph-4.9.jar" sourcepath="source/agraph-4.9-src.jar"/>
+	<classpathentry kind="lib" path="lib/kim/kim-api.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/BKSportQA/javadoc/kim-3.0-RC5-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="lib/kim/channel_iface_impl_stub-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/agraph/lib/sesame/openrdf-sesame-2.6.8-onejar.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-arq-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-core-2.10.0.jar"/>
+	<classpathentry kind="lib" path="lib/jena/jena-iri-0.9.5.jar"/>
+	<classpathentry kind="lib" path="lib/puremvc-java-1.1.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:platform:/resource/BKSportQA/javadoc/puremvc-java-1.1-doc.zip!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

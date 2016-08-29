@@ -1,0 +1,8 @@
+# Allegrograph server's configuration
+AG_SERVER_HOST=172.245.22.156
+AG_SERVER_PORT=10035
+AG_SERVER_USER=congnh
+AG_SERVER_PASSWORD=a@2a@2
+# KIM server's configuration
+KIM_SERVER_HOST=localhost
+KIM_SERVER_PORT=1099

@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<!--
+	General term 
+	 -->
+
+	<resource name="general">
+		<resource-entry>
+			<keyword>a</keyword>
+			<keyword>an</keyword>
+			<expected-label>a</expected-label>
+			<expected-label>an</expected-label>
+			<resource>http://bksport.org/2013/05/resource/a-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>all</keyword>
+			<expected-label>all</expected-label>
+			<expected-label>all the</expected-label>
+			<resource>http://bksport.org/2013/05/resource/all-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>every</keyword>
+			<expected-label>every</expected-label>
+			<resource>http://bksport.org/2013/05/resource/all-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>no</keyword>
+			<expected-label>no</expected-label>
+			<resource>http://bksport.org/2013/05/resource/no-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>each</keyword>
+			<expected-label>each</expected-label>
+			<resource>http://bksport.org/2013/05/resource/each-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>most</keyword>
+			<expected-label>the most</expected-label>
+			<resource>http://bksport.org/2013/05/resource/most-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>least</keyword>
+			<expected-label>the least</expected-label>
+			<resource>http://bksport.org/2013/05/resource/least-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>most</keyword>
+			<expected-label>most</expected-label>
+			<resource>http://bksport.org/2013/05/resource/most-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>few</keyword>
+			<expected-label>a few</expected-label>
+			<resource>http://bksport.org/2013/05/resource/some-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>some</keyword>
+			<expected-label>some</expected-label>
+			<resource>http://bksport.org/2013/05/resource/some-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>many</keyword>
+			<expected-label>many</expected-label>
+			<resource>http://bksport.org/2013/05/resource/many-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>the</keyword>
+			<expected-label>the</expected-label>
+			<resource>http://bksport.org/2013/05/resource/the-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>least</keyword>
+			<expected-label>at least</expected-label>
+			<resource>http://bksport.org/2013/05/resource/at-most-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>most</keyword>
+			<expected-label>at most</expected-label>
+			<resource>http://bksport.org/2013/05/resource/at-most-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>exactly</keyword>
+			<expected-label>exactly</expected-label>
+			<resource>http://bksport.org/2013/05/resource/exactly-dt</resource>
+			<type>http://bksport.org/2013/05/resource/dt</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>who</keyword>
+			<keyword>whose</keyword>
+			<expected-label>who</expected-label>
+			<resource>http://bksport.owl#Person</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>today</keyword>
+			<resource></resource>
+			<type>http://www.w3.org/2001/XMLSchema#datetime</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>yesterday</keyword>
+			<resource></resource>
+			<type>http://www.w3.org/2001/XMLSchema#datetime</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>where</keyword>
+			<resource>http://bksport.owl#Location</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>when</keyword>
+			<resource></resource>
+			<type>http://www.w3.org/2001/XMLSchema#datetime</type>
+		</resource-entry>
+	</resource>
+
+	<!--
+	Football term
+	 -->
+
+	<resource name="football">
+
+		<!--
+		Football term - owl:Class
+		 -->
+
+		<resource-entry>
+			<keyword>football</keyword>
+			<expected-label>football</expected-label>
+			<resource>http://bk.sport.owl#Football</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>goal</keyword>
+			<expected-label>goal</expected-label>
+			<resource>http://bk.sport.owl#Goal</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>league</keyword>
+			<expected-label>league</expected-label>
+			<resource>http://bk.sport.owl#League</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>match</keyword>
+			<expected-label>match</expected-label>
+			<resource>http://bk.sport.owl#Match</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>team</keyword>
+			<keyword>club</keyword>
+			<resource>http://bk.sport.owl#Team</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>championship</keyword>
+			<keyword>title</keyword>
+			<resource>http://bk.sport.owl#Championship</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>manager</keyword>
+			<resource>http://bk.sport.owl#Manager</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>referee</keyword>
+			<resource>http://bk.sport.owl#Referee</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>event</keyword>
+			<resource>http://bk.sport.owl#Event</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+	
+		<!-- Location -->
+		<resource-entry>
+			<keyword>place</keyword>
+			<keyword>location</keyword>
+			<expected-label>location</expected-label>
+			<resource>http://bk.sport.owl#Location</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>city</keyword>
+			<expected-label>city</expected-label>
+			<resource>http://bk.sport.owl#City</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>country</keyword>
+			<expected-label>country</expected-label>
+			<resource>http://bk.sport.owl#Country</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>stadium</keyword>
+			<expected-label>stadium</expected-label>
+			<resource>http://bk.sport.owl#Stadium</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+	
+		<!-- Person -->
+		<resource-entry>
+			<keyword>person</keyword>
+			<expected-label>person</expected-label>
+			<resource>http://bk.sport.owl#Person</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>coach</keyword>
+			<expected-label>coach</expected-label>
+			<resource>http://bk.sport.owl#Coach</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>player</keyword>
+			<expected-label>player</expected-label>
+			<resource>http://bk.sport.owl#Player</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>defender</keyword>
+			<expected-label>defender</expected-label>
+			<resource>http://bk.sport.owl#Defender</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>fullback</keyword>
+			<expected-label>fullback</expected-label>
+			<resource>http://bk.sport.owl#Fullback</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>libero</keyword>
+			<expected-label>libero</expected-label>
+			<resource>http://bk.sport.owl#Libero</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>sweeper</keyword>
+			<expected-label>sweeper</expected-label>
+			<resource>http://bk.sport.owl#Sweeper</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>forward</keyword>
+			<expected-label>forward</expected-label>
+			<resource>http://bk.sport.owl#Forward</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>goalkeeper</keyword>
+			<expected-label>goalkeeper</expected-label>
+			<resource>http://bk.sport.owl#Goalkeeper</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>midfielder</keyword>
+			<keyword>middle-fielder</keyword>
+			<expected-label>midfielder</expected-label>
+			<resource>http://bk.sport.owl#Midfielder</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>striker</keyword>
+			<expected-label>striker</expected-label>
+			<resource>http://bk.sport.owl#Striker</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>referee</keyword>
+			<expected-label>referee</expected-label>
+			<resource>http://bk.sport.owl#Referee</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+	
+		<!-- PersonInfo  -->
+		<resource-entry>
+			<keyword>nationality</keyword>
+			<keyword>nation</keyword>
+			<expected-label>nationality</expected-label>
+			<resource>http://bk.sport.owl#Nationality</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>sex</keyword>
+			<expected-label>sex</expected-label>
+			<resource>http://bk.sport.owl#Sex</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+	
+		<!-- Multimedia -->
+		<resource-entry>
+			<keyword>news</keyword>
+			<keyword>new</keyword>
+			<expected-label>news</expected-label>
+			<resource>http://bk.sport.owl#News</resource>
+			<type>http://www.w3.org/2002/07/owl#Class</type>
+		</resource-entry>
+
+		<!--
+		Football term - owl:DatatypeProperty & owl:ObjectProperty 
+		 -->
+		
+		<resource-entry>
+			<keyword>compete</keyword>
+			<keyword>play</keyword>
+			<expected-label>compete in</expected-label>
+			<resource>http://bk.sport.owl#competeIn</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>score</keyword>
+			<expected-label>score</expected-label>
+			<resource>http://bk.sport.owl#score</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>win</keyword>
+			<keyword>defeat</keyword>
+			<expected-label>win</expected-label>
+			<expected-label>defeat</expected-label>
+			<resource>http://bk.sport.owl#win</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<expected-label>loose</expected-label>
+			<resource>http://bk.sport.owl#loose</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>face</keyword>
+			<keyword>against</keyword>
+			<expected-label>face with</expected-label>
+			<expected-label>is against</expected-label>
+			<resource>http://bk.sport.owl#faceWith</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>locate</keyword>
+			<expected-label>locate in</expected-label>
+			<resource>http://bk.sport.owl#locateIn</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>relate</keyword>
+			<expected-label>related to</expected-label>
+			<resource>http://bk.sport.owl#relateTo</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>organize</keyword>
+			<keyword>organize at</keyword>
+			<keyword>take place in</keyword>
+			<expected-label>organize at</expected-label>
+			<resource>http://bk.sport.owl#takePlaceIn</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>play</keyword>
+			<keyword>stay</keyword>
+			<expected-label>play for</expected-label>
+			<expected-label>stay at</expected-label>
+			<resource>http://bk.sport.owl#playFor</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>oversee</keyword>
+			<keyword>oversaw</keyword>
+			<expected-label>oversee</expected-label>
+			<resource>http://bk.sport.owl#oversee</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>result</keyword>
+			<expected-label>result</expected-label>
+			<resource>http://bk.sport.owl#Result</resource>
+			<type>http://www.w3.org/2002/07/owl#DatatypeProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>contract</keyword>
+			<expected-label>has contract</expected-label>
+			<resource>http://bk.sport.owl#hasContractWith</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		
+		<!-- News -->
+		<resource-entry>
+			<keyword>publish</keyword>
+			<expected-label>is published on</expected-label>
+			<resource>http://bk.sport.owl#isPublishedOn</resource>
+			<type>http://www.w3.org/2002/07/owl#DatatypeProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>refer</keyword>
+			<keyword>about</keyword>
+			<keyword>talk</keyword>
+			<expected-label>about</expected-label>
+			<resource>http://bk.sport.owl#about</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>contain</keyword>
+			<expected-label>contain</expected-label>
+			<resource>http://bk.sport.owl#contain</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>publish</keyword>
+			<keyword>published</keyword>
+			<resource>http://bk.sport.owl#isPublishedOn</resource>
+			<type>http://www.w3.org/2002/07/owl#DatatypeProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>place</keyword>
+			<keyword>take</keyword>
+			<resource>http://bk.sport.owl#takePlaceOn</resource>
+			<type>http://www.w3.org/2002/07/owl#DatatypeProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>place</keyword>
+			<keyword>take</keyword>
+			<resource>http://bk.sport.owl#takePlaceIn</resource>
+			<type>http://www.w3.org/2002/07/owl#DatatypeProperty</type>
+		</resource-entry>
+		<resource-entry>
+			<keyword>place</keyword>
+			<keyword>take</keyword>
+			<resource>http://bk.sport.owl#takePlaceOn</resource>
+			<type>http://www.w3.org/2002/07/owl#ObjectProperty</type>
+		</resource-entry>
+	</resource>
+</resources>
